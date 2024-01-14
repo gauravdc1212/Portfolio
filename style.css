@@ -1,0 +1,175 @@
+.nav-item a {
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+    background: none;
+    color: white;
+}
+
+.img {
+    /* border: 2px solid red; */
+    height: 400px;
+    margin-top: 20px;
+}
+
+.img img {
+    background-image: url("/image/IMG_20240112_164902.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px solid #ffffff;
+    width: 240px;
+    height: 350px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+.info {
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    /* margin-top: 20px; */
+    width: 500px;
+
+
+}
+
+.size {
+    font-size: 2rem;
+    text-align: center;
+}
+.size a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.about {
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    /* background-color: #ffffff; */
+    margin: 20px;
+}
+
+.career {
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.skill {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.qualify {
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+.kiet {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.outer1 {
+    width: 100%;
+    height: 5px;
+    background-color: red;
+}
+
+.inner1 {
+    height: 5px;
+    animation: innerrrrrr1 3s infinite ease-in-out;
+    background-color: yellow;
+}
+
+@keyframes innerrrrrr1 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+.certification {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+
+/* ------design------ */
+.nav-design {
+    background-color: #ffffff;
+    /* color: #8338ec; */
+}
+
+.color {
+    background-color: #011936;
+}
+
+.nav-item a {
+    font-size: large;
+    color: #8338ec;
+}
+
+.info {
+    /* background-color:#eef4ed; */
+}
+
+.info i,
+p {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.about2 {
+    background-color: #294466;
+}
+
+.career {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.backimg {
+    background-color: #294466;
+}
+
+.skillimg {
+    background-color: #294466;
+}
+
+.cerimg {
+    background-color: #294466;
+}
+
+.gau {
+    background-color: #294466;
+}
+
+/* -----Media Querie----- */
+
+@media (max-width:600px) {
+    .size,.about,.career,.qualify,.skill,.certification,.backimg{
+        font-size: 20px;
+    }
+    .info{
+        margin: auto;
+    }
+ 
+}
